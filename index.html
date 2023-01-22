@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap"
+    rel="stylesheet">
+  <title>Habits</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<header>
+  <img src="./assets/logo.svg" alt="Logomarca do aplicativo Habits">
+  <button id="botao">
+    <img src="./assets/cruz.svg" alt="Simbolo de Mais (Adição)">
+    <div>Registrar meu Dia</div>
+  </button>
+</header>
+
+<body>
+  <form id="forme">
+    <div class="habits">
+      <div class="habit" data-name="run">🏃🏽‍♂️</div>
+      <div class="habit" data-name="water">💧</div>
+      <div class="habit" data-name="gym">🦾</div>
+      <div class="habit" data-name="food">🥗</div>
+    </div>
+
+    <div class="days"></div>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
